@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="Registration.css">
+    </head>
+    <body> 
+        
+         <div id="welcome">
+            <h1>Welcome to Registration Portal</h1>
+           
+        </div>
+        
+        <div id="search" >
+                <h2 id="searchhead">Search Registered Patient</h2>
+            <span id="Sname" >
+                <label>Name :</label>
+                <input name="SearchName"type="text" id="nameenter">
+            </span>
+            <span id="Sid">
+                <label>Patient ID :</label>
+                <input name="SearchID" type="text" id="nameenter">
+            </span>
+            <span id="Snum">
+                <label>Contact Number :</label>
+                <input type="number" id="SearchNumber">
+            </span>
+        
+        </div>
+       <div id="whole" style="">
+            <div id="left" >
+                <img id="image1" src="DocIcon.png" height="100px" width="100px">
+                <h1 id="regform" > Registration Form</h1>
+            <form>
+                    <br><br>        
+                    <label style="padding-right: 53px;" >*Enter Name : </label> 
+                    <input name="FirstName" placeholder="First Name"style="width: 130px;"  id="name" type="text" required>
+            
+                     <input name="SurName" placeholder="Surname" id="name" type="text" style="width: 130px;" required>
+    <br><br>
+                <label style=";padding-right:45px"> *Contact Number :    </label> 
+                    <input name="ContactNo" id = "numbers"type= "number" required>
+    <br><br>
+                <label style="padding-right: 67px">*Patient's Age : </label> 
+                    <input name="Age" id="age" type = "date" maxlength="3" placeholder="Enter age in number form"  required>
+    <br><br>
+                <label style="padding-right:68px">*Select Gender:   </label>
+                    <label >Male</label>
+                    <input  name="male" id = "text"type= "radio"  required > &nbsp;
+                    <label>Female</label>
+                    <input name="female" id = "text"type= "radio">&nbsp;
+                    <label>Other</label>
+                    <input name="other" id = "text"type= "radio"  required>
+    <br><br>
+                <label style="padding-right:58px">*Email Address : </label> 
+                <input name="Email" id = "p1"type= "email"padding-right:38px   required>
+    <br><br>
+                <label style="padding-right:62px" for="comment">*Enter Address :</label> 
+                <textarea name="comment" required >Enter Address here...</textarea>
+    <br><br>
+             <label style="padding-right: 70px">Blood Group : </label> 
+                <input name="Bloodgp" id="bloodgp" style="width: 50px" type = "text" maxlength="4" >
+    <br><br>
+             <label style="padding-right: 12px">Weight : </label> 
+                <input name="weight" id="bloodgp" style="width: 60px;" type = "text" maxlength="4" >
+            
+             <label style="padding-left: 48px; padding-right:12px">Height : </label> 
+                <input name="height" id="bloodgp" style="width: 60px;" type = "text" maxlength="4" >
+    <br><br>
+             <div style="vertical-align: middle">
+                 <label for="comments"style="vertical-align: middle;padding-right:  32px;">Comments : </label> 
+                
+                <textarea name="extra"  id="comments"  type = "textbox" rows="3" cols="29" ></textarea>
+            </div>
+    <br><br>
+            
+            
+            <label required> *Payment Method :  </label>      
+        <select>
+        <option>Debit Card</option>
+        <option>Net Banking</option>
+        <option>cash</option>
+        <option>Debit Card</option>
+        </select>
+    <br><br>
+            
+            <div style="padding : 0px 20px 0px 130px;">
+             
+                <input name="Submit" id="sub" type="submit">
+            </div>
+            </form>
+            <p id="e" style="color: red"></p>
+           
+            <p style="padding-left: 30px">By clicking Sign Up, you agree to our Terms,<br> Data Policy and Cookie Policy.<br> You may receive SMS notifications from us <br>and can opt out at any time</p>
+        
+        
+        </div>
+       <div id="Sdetail" >
+        <div style="text-align: center">
+            <h2 id="Sdet" style="">Search Details</h2>
+        <img src="">
+        </div>
+        </div>
+    </body>
+</html>

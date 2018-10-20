@@ -1,0 +1,73 @@
+body
+    {
+    min-width: 900px;
+    background-image : url(Background.jpg) ;
+    background-size: cover; 
+    color: white
+    }
+#welcome {
+    padding : 10px 0px 10px 0px;
+    color:red;
+    text-align: center;
+}
+
+#search{
+    min-width: 900px; 
+    text-align: center;
+}
+    
+#searchHead{
+    color:white;
+    text-align: center;
+}
+
+#Sname{
+    padding-right: 50px;
+}
+
+#Sid{
+    padding-right: 50px;
+}
+#Snum{
+    padding-right: 50px;
+}
+
+#whole{
+    min-width: 1300;
+}
+
+
+#image1{
+    display: block;
+    margin: auto;
+}
+
+#regform{
+    color: white; 
+    text-align: center;
+}
+
+#sub{
+    font-size: 20px; 
+    background-color:red;
+    color:white;
+    border-color: red;
+    margin:10px 0px 0px 0px;
+    padding: 4px 50px 4px 50px;
+    border-radius: 15px;
+    color:white; 
+}
+
+#Sdetail{
+    height:800px;
+    width:500px;
+    float:right;
+    margin:35px 70px 100px 0px ; 
+    padding : 10px 20px 60px 60px;
+}
+
+#Sdet{
+    color:white;
+    text-align: center; 
+    border: 4px red ridge;
+}

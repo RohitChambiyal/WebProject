@@ -1,0 +1,60 @@
+body{
+background-image : url(Black-Wallpaper-7A2.jpg);
+background-size: cover;
+color: white;
+}
+
+#main{
+    min-width: 400px;
+    ; border: 4px grey double; 
+    margin:60px 430px 100px 430px ;
+    padding : 10px 20px 10px 30px;
+}
+
+#linka{
+    display: block;
+    margin: auto;
+}
+
+#head1{
+    opacity: 0.9; 
+    text-align: center;
+    padding: 20px 0px 40px 0px ;
+}
+
+#seconddiv{
+    margin: 0px 0px 50px 50px;
+}
+
+#button1{
+    font-family:cursive;
+    font-size: 20px; 
+    background-color:red;
+    color:white;
+    border-color: red; 
+    margin:10px 0px 0px 140px;
+    padding: 4px 50px 4px 50px;
+    border-radius: 15px;
+    color:white; 
+}
+
+#anotherdiv{
+    color:white; 
+    margin:0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#para1{
+    color:red; 
+    margin:0px 0px 0px 0px;
+    padding: 0px;
+}
+
+a:hover{
+    font-size: 15px;
+    color: white;
+}
+#forget{
+    
+    color: white;
+}
